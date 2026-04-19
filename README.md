@@ -4,7 +4,7 @@ This is a minimal implementation of the RAG model for question answering.
 
 ## Requirments 
 
--Pythin 3.8 or latest
+-Python 3.9 or latest
 
 #### Install Python using MiniConda
 
@@ -12,10 +12,15 @@ This is a minimal implementation of the RAG model for question answering.
 
 2) Create enviroment using the following command:
 ```bash
-$ conda create -n mini-rag python=3.8
+$ conda create -n mini-rag python=3.9
 ```
 
 3) Activate the enviroment:
 ```bash
 $ conda avtivate mini-rag
+```
+
+### (Optional) setup your cmmand line for better readability
+```bash
+export PS1="\[\033[01;32m\]\u@\h:\w\n\[\033[00m\]\$ "
 ```
