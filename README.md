@@ -24,3 +24,20 @@ $ conda avtivate mini-rag
 ```bash
 export PS1="\[\033[01;32m\]\u@\h:\w\n\[\033[00m\]\$ "
 ```
+
+## Installation
+
+### Install the required packages
+
+```bash
+$ pip install -r requirementes.txt
+```
+
+### Setup the environment variables
+
+```bash
+$ cb .env.example .env
+```
+
+Set your environment variable in the `.env` file. Like `OPEN_API_KEY` value.
+
